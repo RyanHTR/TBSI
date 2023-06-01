@@ -72,11 +72,14 @@ class Tracker:
             multiobj_mode: Which mode to use for multiple objects.
         """
         params = self.get_parameters()
-        run_id = int(run_id)
-        from lib.test.evaluation.environment import env_settings
-        params.checkpoint = os.path.join(env_settings().save_dir, "%s/checkpoints/train/tbsi_track/%s/TBSITrack_ep%04d.pth.tar" %
-                                     (name, name, run_id))
-
+        # if run_id:
+        #     run_id = int(run_id)
+        #     from lib.test.evaluation.environment import env_settings
+        #     params.checkpoint = os.path.join(env_settings().save_dir, "%s/checkpoints/train/tbsi_track/%s/TBSITrack_ep%04d.pth.tar" %
+        #                                 (name, name, run_id))
+        # else:
+        #     params.checkpoint = os.path.join(env_settings().save_dir, "%s/checkpoints/train/tbsi_track/%s/TBSITrack_ep%04d.pth.tar" %
+        #                                 (name, name, run_id))
         debug_ = debug
         if debug is None:
             debug_ = getattr(params, 'debug', 0)
