@@ -58,6 +58,18 @@ Model | Backbone | Pretraining | Precision | NormPrec | Success | FPS | Checkpoi
 TBSI | ViT-Base | ImageNet | 64.3 | 60.8 | 51.0 | 36.2 | [download](https://pan.baidu.com/s/18MYRT4jkunIPklD02daFXA?pwd=y2rz) | [download](https://pan.baidu.com/s/1CP07T0VmtxPr6KcWqszY1w?pwd=6v3b)
 TBSI | ViT-Base | SOT | 70.2 | 66.5 | 56.5 | 36.2 | [download](https://pan.baidu.com/s/18MYRT4jkunIPklD02daFXA?pwd=y2rz) | [download](https://pan.baidu.com/s/1CP07T0VmtxPr6KcWqszY1w?pwd=6v3b)
 
+### Results on RGBT234
+
+Model | Backbone | Pretraining | Precision | NormPrec | Success | FPS | Checkpoint | Raw Result
+--- |:---:|:---:|:---:|:---:|:---:|:---:|---:|---:
+TBSI | ViT-Base | SOT | 86.4 | 76.0 | 64.0 | 36.2 | [download](todo) | [download](todo)
+
+### Results on RGBT210
+
+Model | Backbone | Pretraining | Precision | NormPrec | Success | FPS | Checkpoint | Raw Result
+--- |:---:|:---:|:---:|:---:|:---:|:---:|---:|---:
+TBSI | ViT-Base | SOT | 85.1 | 74.0 | 62.5 | 36.2 | [download](todo) | [download](todo)
+
 ## Acknowledgments
 Our project is developed upon [OSTrack](https://github.com/botaoye/OSTrack). Thanks for their contributions which help us to quickly implement our ideas.
 
