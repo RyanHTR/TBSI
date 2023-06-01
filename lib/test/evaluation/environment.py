@@ -10,7 +10,7 @@ class EnvSettings:
         self.segmentation_path = '{}/segmentation_results/'.format(test_path)
         self.network_path = '{}/networks/'.format(test_path)
         self.result_plot_path = '{}/result_plots/'.format(test_path)
-        self.check_dir = 'model'
+        self.check_dir = 'output'
         self.otb_path = ''
         self.nfs_path = ''
         self.uav_path = ''
@@ -57,7 +57,7 @@ class EnvSettings_ITP:
     def __init__(self, workspace_dir, data_dir, save_dir):
         self.prj_dir = workspace_dir
         self.save_dir = save_dir
-        self.check_dir = '/models'
+        self.check_dir = 'output'
         self.results_path = os.path.join(save_dir, 'test/tracking_results')
         self.segmentation_path = os.path.join(save_dir, 'test/segmentation_results')
         self.network_path = os.path.join(save_dir, 'test/networks')
@@ -85,6 +85,9 @@ class EnvSettings_ITP:
         self.got_reports_path = ''
         self.tn_packed_results_path = ''
 
+        self.lasher_path = os.path.join(data_dir, 'lasher')
+        self.rgbt234_path = os.path.join(data_dir, 'RGB-T234')
+        self.rgbt210_path = os.path.join(data_dir, 'RGB-T210')
 
 def create_default_local_file_ITP_test(workspace_dir, data_dir, save_dir):
     comment = {'results_path': 'Where to store tracking results',
