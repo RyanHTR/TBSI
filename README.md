@@ -62,7 +62,7 @@ TBSI | ViT-Base | SOT | 70.2 | 66.5 | 56.5 | 36.2 | [download](https://pan.baidu
 
 Model | Backbone | Pretraining | Precision | NormPrec | Success | FPS | Checkpoint | Raw Result
 --- |:---:|:---:|:---:|:---:|:---:|:---:|---:|---:
-TBSI | ViT-Base | SOT | 86.4 | 76.0 | 64.0 | 36.2 | [download](todo) | [download](todo)
+TBSI | ViT-Base | SOT | 87.4 | 76.4 | 64.3 | 36.2 | [download](todo) | [download](todo)
 
 ### Results on RGBT210
 
