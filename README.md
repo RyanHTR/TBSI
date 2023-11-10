@@ -62,13 +62,13 @@ TBSI | ViT-Base | SOT | 70.2 | 66.5 | 56.5 | 36.2 | [download](https://pan.baidu
 
 Model | Backbone | Pretraining | Precision | NormPrec | Success | FPS | Checkpoint | Raw Result
 --- |:---:|:---:|:---:|:---:|:---:|:---:|---:|---:
-TBSI | ViT-Base | SOT | 87.4 | 76.4 | 64.3 | 36.2 | [download](todo) | [download](https://pan.baidu.com/s/1X8PuVOCKuEWKUeOJWwu5lg?pwd=43o6)
+TBSI | ViT-Base | SOT | 87.4 | 76.4 | 64.3 | 36.2 | [download](https://pan.baidu.com/s/1yyi9St8HR5DW-dRLNfUkVA?pwd=csbc) | [download](https://pan.baidu.com/s/1X8PuVOCKuEWKUeOJWwu5lg?pwd=43o6)
 
 ### Results on RGBT210
 
 Model | Backbone | Pretraining | Precision | NormPrec | Success | FPS | Checkpoint | Raw Result
 --- |:---:|:---:|:---:|:---:|:---:|:---:|---:|---:
-TBSI | ViT-Base | SOT | 85.1 | 74.0 | 62.5 | 36.2 | [download](todo) | [download](https://pan.baidu.com/s/1bI56y_48e11zKk9qKSAdyQ?pwd=5o8l)
+TBSI | ViT-Base | SOT | 85.1 | 74.0 | 62.5 | 36.2 | [download](https://pan.baidu.com/s/1l08FKnr45tdk-paR-8y8bA?pwd=6n8f) | [download](https://pan.baidu.com/s/1bI56y_48e11zKk9qKSAdyQ?pwd=5o8l)
 
 ## Acknowledgments
 Our project is developed upon [OSTrack](https://github.com/botaoye/OSTrack). Thanks for their contributions which help us to quickly implement our ideas.
